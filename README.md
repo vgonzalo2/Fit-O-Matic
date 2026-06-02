@@ -5,9 +5,8 @@ The Fit-O-Matic is a smart closet system built as a capstone project for CMPE296
 The system uses ASP.NET Core (Razor Pages) and C# for backend logic, with REST API integration to retrieve live weather data in JSON format. This data is used to support more informed outfit selection based on current weather conditions.
 
 ## Key Features
-- Motor-driven rotating closet rack system as the mechanical structure
-- NFC-based clothing identification using NFC cards attached to each clothing rung
-- Integrated Open-Meteo API for real-time weather data in JSON format to support user outfit selection
+- Retrieves real-time weather data using Open-Meteo API (REST + JSON)
+- Displays current weather conditions to assist user outfit selection  
 - Web interface built using ASP.NET Core (Razor Pages)
 - Backend logic implemented using C# and Entity Framework Core
 
