@@ -11,7 +11,6 @@ The system uses ASP.NET Core (Razor Pages) and C# for backend logic, with REST A
 - Web interface built using ASP.NET Core (Razor Pages)
 - Backend logic implemented using C# and Entity Framework Core
 
-
 ## Technologies Used
 - ASP.NET Core (Razor Pages)
 - C#
@@ -23,10 +22,11 @@ The system uses ASP.NET Core (Razor Pages) and C# for backend logic, with REST A
 
 ## Project Context
 
-This project was completed collaboratively as part of a NAIT Computer Engineering Technology capstone course (CMPE2965). The repository has been reconstructed for portfolio purposes based on final project deliverables.
+This project was completed collaboratively as part of a team capstone course (CMPE2965) in the NAIT Computer Engineering Technology program. The repository has been reconstructed for portfolio purposes based on final project deliverables.
 
 ## My Contributions
 - Backend development using ASP.NET Core (Razor Pages) and C#
 - Integration of real-time weather API data using REST and JSON
 - Implementation of logic for automated outfit selection
 - Assisted with system integration between web application and hardware components
+
