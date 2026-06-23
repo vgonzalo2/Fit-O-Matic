@@ -19,14 +19,17 @@ The system uses ASP.NET Core (Razor Pages) and C# for backend logic, with REST A
 
 ## My Contributions
 - Developed backend functionality using ASP.NET Core (Razor Pages) and C#
-- Integration of real-time weather API data using REST and JSON
+- Integrated real-time weather API data using REST and JSON
 - Built frontend features to display weather data and assist users in making outfit selections
 - Implemented API endpoint communication between web application and hardware system
 
 ## Hardware Components
+- Raspberry Pi Pico W
 - Motorized rotating closet rack system
 - NFC-based clothing identification system using tagged clothing rungs
-- Hardware integration designed and implemented by project teammate
+
+## Acknowledgements
+- Hardware design and implementation were primarily completed by Andreas Delfin as part of the CMPE2965 Capstone project team.
 
 ## Technologies Used
 - ASP.NET Core (Razor Pages)
@@ -35,4 +38,4 @@ The system uses ASP.NET Core (Razor Pages) and C# for backend logic, with REST A
 - REST APIs
 - JSON
 - HTML, CSS
-- SQL Server (Azure Hosted) 
+- SQL Server (Azure Hosted)
