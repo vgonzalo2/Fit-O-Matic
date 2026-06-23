@@ -1,8 +1,8 @@
 # Fit-O-Matic - Smart Closet System (Capstone Project)
 
 ## Project Overview
-The Fit-O-Matic is a smart closet system developed as a collaborative capstone project (CMPE2965 - Technical Project) in the NAIT Computer Engineering Technology program. The system combines a web application and hardware components to assist user decision-making for outfit selection by displaying real-time weather conditions.
-The web application was built using ASP.NET Core (Razor Pages) with C# and integrates REST APIs to retrieve real-time weather data in JSON format from the Open-Meteo Weather API.
+The Fit-O-Matic is a **smart closet system** developed as a collaborative capstone project (CMPE2965 - Technical Project) in the NAIT Computer Engineering Technology program. The system combines a web application and hardware components to assist user decision-making for outfit selection by displaying real-time weather conditions.
+The web application was built using **ASP.NET Core (Razor Pages)** with **C#** and integrates **REST APIs** to retrieve real-time weather data in JSON format from the **Open-Meteo Weather API**.
 
 The repository has been recreated for portfolio purposes.
 
@@ -10,7 +10,7 @@ The repository has been recreated for portfolio purposes.
 - Retrieves real-time weather data using Open-Meteo Weather API (REST + JSON)
 - Displays current weather conditions to assist users in making outfit selection  
 - Web interface built using ASP.NET Core (Razor Pages)
-- Backend services implemented using C# and ADO.NET with parameterized MSSQL queries
+- Backend services implemented using C# and **ADO.NET** with parameterized **MSSQL** queries
 - Integration with hardware components for automated closet functionality
 
 ## My Contributions
@@ -45,3 +45,5 @@ The hardware subsystem was developed by a separate team member and is included f
 - REST API Integration
 - JSON data handling
 - Open-Meteo Weather API
+
+*Disclaimer: Microsoft, Azure, and Azure SQL Database are trademarks of the Microsoft group of companies. This project is an independent integration and is not endorsed, sponsored, or officially affiliated with Microsoft Corporation.*
