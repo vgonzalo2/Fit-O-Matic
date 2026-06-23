@@ -1,20 +1,16 @@
 # Fit-O-Matic - Smart Closet System (Capstone Project)
 
-## Project Context
-This project was completed collaboratively as part of a team capstone course (CMPE2965 Technical Project) in the NAIT Computer Engineering Technology program. The system combines a web application with team-built hardware components to provide real-time weather data that assists user decision-making for outfit selection.
-
-The repository has been reconstructed for portfolio purposes based on final project deliverables.
-
 ## Project Overview
-The Fit-O-Matic is a smart closet system built as a capstone project for CMPE2965 at the Northern Alberta Institute of Technology (NAIT). It combines a web application with hardware to help manage clothing selection and closet rotation based on user input and real-time environmental data.
+The Fit-O-Matic is a smart closet system developed as a collaborative capstone project (CMPE2965 - Technical Project) in the NAIT Computer Engineering Technology program. The system combines a web application and hardware components to assist user decision-making for outfit selection by displaying real-time weather conditions.
+The web application was built using ASP.NET Core (Razor Pages) with C# and integrates REST APIs to retrieve real-time weather data in JSON format from the Open-Meteo Weather API.
 
-The system uses ASP.NET Core (Razor Pages) and C# for backend logic, with REST API integration to retrieve live weather data in JSON format. This data is used to support more informed outfit selection based on current weather conditions.
+The repository has been recreated for portfolio purposes.
 
 ## Key Features
-- Retrieves real-time weather data using Open-Meteo API (REST + JSON)
+- Retrieves real-time weather data using Open-Meteo Weather API (REST + JSON)
 - Displays current weather conditions to assist users in making outfit selection  
 - Web interface built using ASP.NET Core (Razor Pages)
-- Backend services implemented using C# and Entity Framework Core
+- Backend services implemented using C# and ADO.NET with parameterized MSSQL queries
 - Integration with hardware components for automated closet functionality
 
 ## My Contributions
@@ -24,6 +20,9 @@ The system uses ASP.NET Core (Razor Pages) and C# for backend logic, with REST A
 - Implemented API endpoint communication between web application and hardware system
 
 ## Hardware Components
+
+The hardware subsystem was developed by a separate team member and is included for system context only.
+
 - Raspberry Pi Pico W
 - Motorized rotating closet rack system
 - NFC-based clothing identification system using tagged clothing rungs
@@ -31,11 +30,18 @@ The system uses ASP.NET Core (Razor Pages) and C# for backend logic, with REST A
 ## Acknowledgements
 - Hardware design and implementation were primarily completed by Andreas Delfin as part of the CMPE2965 Capstone project team.
 
-## Technologies Used
+## Tech Stack
+<div>
+  <img width="50" src=https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c%23.png alt="C#" title= "C#"/>
+  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mssql.png" alt="MSSQL" title="MSSQL">
+  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/>
+  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/>
+  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/>
+</div>
+
+### Architecture & Integrations
 - ASP.NET Core (Razor Pages)
-- C#
-- Entity Framework Core
-- REST APIs
-- JSON
-- HTML, CSS
-- SQL Server (Azure Hosted)
+- ADO.NET with parameterized queries
+- REST API Integration
+- JSON data handling
+- Open-Meteo Weather API
