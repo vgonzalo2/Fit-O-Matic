@@ -1,21 +1,20 @@
 # Fit-O-Matic - Smart Closet System (Capstone Project)
 
 ## Project Overview
-The Fit-O-Matic is a **smart closet system** developed as a *collaborative capstone project (CMPE2965 - Technical Project)* in the NAIT Computer Engineering Technology program. The system combines a web application and hardware components to assist user decision-making for outfit selection by displaying real-time weather conditions.
-The web application was built using **ASP.NET Core (Razor Pages)** with **C#** and integrates **REST APIs** to retrieve real-time weather data in JSON format from the **Open-Meteo Weather API**.
+The Fit-O-Matic is a **smart closet system** developed as a *collaborative capstone project)* (CMPE2965 - Technical Project) in the NAIT Computer Engineering Technology program. It combines a web application and hardware components to help users make outfit decisions using real-time data from an external API.
 
 The repository has been recreated for *portfolio purposes*.
 
 ## Key Features
-- Retrieves real-time weather data using Open-Meteo Weather API (**REST + JSON**)
-- Displays current weather conditions to assist users in making outfit selection  
-- Web interface built using ASP.NET Core (Razor Pages)
-- Backend services implemented using C# and **ADO.NET** with parameterized **MSSQL** queries
-- Integration with hardware components for automated closet functionality
+- Displays weather conditions hourly through a web interface
+- Connects with a hardware-based closet system for automated interaction
+- Enables users to control the closet system through both the web interface and a physical controller board
+- Lets users browse an outfit catalog and view the currently selected outfit on the web interface 
+- Allow users to update and manage the clothing inventory in the closet system
 
 ## My Contributions
-- Developed backend functionality using ASP.NET Core (Razor Pages) and C#
-- Integrated real-time weather API data using REST and JSON
+- Developed backend functionality using ASP.NET Core (Razor Pages) and Javascript
+- Integrated data access using ADO.NET parameterized queries
 - Built frontend features to display weather data and assist users in making outfit selections
 - Implemented API endpoint communication between web application and hardware system
 
@@ -39,7 +38,7 @@ The hardware subsystem was developed by a separate team member and is included f
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/>
 </div>
 
-### Architecture & Integrations
+## Architecture & Integrations
 - ASP.NET Core (Razor Pages)
 - ADO.NET with parameterized queries
 - REST API Integration (Open-Meteo Weather API)
