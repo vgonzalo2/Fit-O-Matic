@@ -1,9 +1,14 @@
 # Fit-O-Matic - Smart Closet System (Capstone Project)
 
 ## Project Overview
-The Fit-O-Matic is a **smart closet system** developed as a *collaborative capstone project)* (CMPE2965 - Technical Project) in the NAIT Computer Engineering Technology program. It combines a web application and hardware components to help users make outfit decisions using real-time data from an external API.
+The Fit-O-Matic is a **smart closet system** developed as a *collaborative capstone project* (CMPE2965 - Technical Project) in the NAIT Computer Engineering Technology program. It combines a web application and hardware components to help users make outfit decisions using real-time data from an external API.
 
 The repository has been recreated for *portfolio purposes*.
+
+<figure>
+  <img src="" title="Fit-O-Matic_Assembled">
+  <figcaption>Final assembled Fit-O-Matic system (hardware subsystem developed by teammate).</figcaption>
+</figure>
 
 ## Key Features
 - Displays hourly weather conditions through a web interface
@@ -45,4 +50,4 @@ The hardware subsystem was developed by a separate team member and is included f
 ## Project Images
 
 ## Acknowledgements
-- Hardware design and implementation were primarily completed by Andreas Delfin as part of the CMPE2965 Capstone project team.
+Hardware design and implementation were primarily completed by Andreas Delfin as part of the CMPE2965 Capstone project team.
