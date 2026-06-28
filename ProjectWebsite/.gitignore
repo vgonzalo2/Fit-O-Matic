@@ -1,7 +1,25 @@
+# Build outputs
 bin/
 obj/
+
+#Visual Studio
 .vs/
 *.user
 *.suo
+
+# App configuration (local only)
 appsettings.Development.json
 Properties/launchSettings.json
+
+# Logs
+*.log
+
+# Publish / Azure deployment
+Properties/PublishProfiles/
+*.pubxml
+*.pubxml.user
+*.PublishSettings
+
+# Service artifacts
+Connected Services/
+Service References/
