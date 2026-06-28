@@ -6,17 +6,17 @@ The Fit-O-Matic is a **smart closet system** developed as a *collaborative capst
 The repository has been recreated for *portfolio purposes*.
 
 ## Key Features
-- Displays weather conditions hourly through a web interface
-- Connects with a hardware-based closet system for automated interaction
-- Enables users to control the closet system through both the web interface and a physical controller board
+- Displays hourly weather conditions through a web interface
+- Enables users to control and interact with the hardware-based closet system through both a web interface and a physical controller board
 - Lets users browse an outfit catalog and view the currently selected outfit on the web interface 
 - Allow users to update and manage the clothing inventory in the closet system
 
 ## My Contributions
-- Developed backend functionality using ASP.NET Core (Razor Pages) and Javascript
-- Integrated data access using ADO.NET parameterized queries
-- Built frontend features to display weather data and assist users in making outfit selections
-- Implemented API endpoint communication between web application and hardware system
+- Developed application logic using C# and Javascript for both frontend and backend functionality
+- Used ASP.NET Core (Razor Pages) as a UI templating structure for the web interface
+- Implemented data access using ADO.NET with parameterized queries for SQL Server Integration
+- Retrieved real-time weather data from a external API for application functionality
+- Developed integration between the web application and the closet system
 
 ## Hardware Components
 
@@ -25,9 +25,6 @@ The hardware subsystem was developed by a separate team member and is included f
 - Raspberry Pi Pico W
 - Motorized rotating closet rack system
 - NFC-based clothing identification system using tagged clothing rungs
-
-## Acknowledgements
-- Hardware design and implementation were primarily completed by Andreas Delfin as part of the CMPE2965 Capstone project team.
 
 ## Tech Stack
 <div>
@@ -44,3 +41,8 @@ The hardware subsystem was developed by a separate team member and is included f
 - REST API Integration (Open-Meteo Weather API)
 - Azure SQL Database (Microsoft SQL Server)
 - JSON data handling
+
+## Project Images
+
+## Acknowledgements
+- Hardware design and implementation were primarily completed by Andreas Delfin as part of the CMPE2965 Capstone project team.
