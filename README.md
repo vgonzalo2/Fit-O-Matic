@@ -1,34 +1,35 @@
 # Fit-O-Matic - Smart Closet System (Capstone Project)
 
 ## Project Overview
-The Fit-O-Matic is a **smart closet system** developed as a collaborative capstone project (CMPE2965 - Technical Project) in the NAIT Computer Engineering Technology program. The system combines a web application and hardware components to assist user decision-making for outfit selection by displaying real-time weather conditions.
-The web application was built using **ASP.NET Core (Razor Pages)** with **C#** and integrates **REST APIs** to retrieve real-time weather data in JSON format from the **Open-Meteo Weather API**.
+The Fit-O-Matic is a **smart closet system** developed as a *collaborative capstone project* (CMPE2965 - Technical Project) in the NAIT Computer Engineering Technology program. It combines a web application and hardware components to help users make outfit decisions using real-time data from an external API.
 
-The repository has been recreated for portfolio purposes.
+The repository has been recreated for *portfolio purposes*.
+
+<figure>
+  <img src="" title="Fit-O-Matic_Assembled">
+  <figcaption>Final assembled Fit-O-Matic system (hardware subsystem developed by teammate).</figcaption>
+</figure>
 
 ## Key Features
-- Retrieves real-time weather data using Open-Meteo Weather API (REST + JSON)
-- Displays current weather conditions to assist users in making outfit selection  
-- Web interface built using ASP.NET Core (Razor Pages)
-- Backend services implemented using C# and **ADO.NET** with parameterized **MSSQL** queries
-- Integration with hardware components for automated closet functionality
+- Displays hourly weather conditions through a web interface
+- Enables users to control and interact with the hardware-based closet system through both a web interface and a physical controller board
+- Lets users browse an outfit catalog and view the currently selected outfit on the web interface 
+- Allow users to update and manage the clothing inventory in the closet system
 
 ## My Contributions
-- Developed backend functionality using ASP.NET Core (Razor Pages) and C#
-- Integrated real-time weather API data using REST and JSON
-- Built frontend features to display weather data and assist users in making outfit selections
-- Implemented API endpoint communication between web application and hardware system
+- Developed application logic using C# and Javascript for both frontend and backend functionality
+- Used ASP.NET Core (Razor Pages) as a UI templating structure for the web interface
+- Implemented data access using ADO.NET with parameterized queries for SQL Server Integration
+- Retrieved real-time weather data from a external API for application functionality
+- Developed integration between the web application and the closet system
 
 ## Hardware Components
 
-The hardware subsystem was developed by a separate team member and is included for system context only.
+The hardware subsystem was developed by a separate team member and is included for *system context only*.
 
 - Raspberry Pi Pico W
 - Motorized rotating closet rack system
 - NFC-based clothing identification system using tagged clothing rungs
-
-## Acknowledgements
-- Hardware design and implementation were primarily completed by Andreas Delfin as part of the CMPE2965 Capstone project team.
 
 ## Tech Stack
 <div>
@@ -39,11 +40,14 @@ The hardware subsystem was developed by a separate team member and is included f
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/>
 </div>
 
-### Architecture & Integrations
+## Architecture & Integrations
 - ASP.NET Core (Razor Pages)
 - ADO.NET with parameterized queries
-- REST API Integration
+- REST API Integration (Open-Meteo Weather API)
+- Azure SQL Database (Microsoft SQL Server)
 - JSON data handling
-- Open-Meteo Weather API
 
-*Disclaimer: Microsoft, Azure, and Azure SQL Database are trademarks of the Microsoft group of companies. This project is an independent integration and is not endorsed, sponsored, or officially affiliated with Microsoft Corporation.*
+## Project Images
+
+## Acknowledgements
+Hardware design and implementation were primarily completed by Andreas Delfin as part of the CMPE2965 Capstone project team.
