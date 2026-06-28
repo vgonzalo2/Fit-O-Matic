@@ -1,0 +1,111 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    #prevPresetBtn > * {
+        background-color: aliceblue;
+        margin: 0px;
+    }
+
+    #nextPresetBtn > * {
+        background-color: aliceblue;
+        margin-left: 10px;
+    }
+
+    #presets{
+        display: flex;
+        align-items:center;
+    }
+
+    /* Presets Container */
+    #presets {
+        align-items: center; /* Vertically align items in the row */
+    }
+
+    /* Preset Table Container */
+    #presetTableContainer {
+        max-width: 100%; /* Ensure the container fits within the column */
+        overflow-x: auto; /* Allow horizontal scrolling if necessary */
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Preset Table */
+    #presetTable {
+        width: auto; /* Let the table size adapt to content */
+        border-collapse: collapse; /* Neater borders */
+        text-align: center;
+    }
+
+    /* Table Cell Styling */
+    #presetTable td,
+    #presetTable th {
+        padding: 10px; /* Add consistent padding */
+        border: none; /* Remove default borders */
+        text-align: center;
+        vertical-align: middle; /* Center content vertically */
+    }
+
+    /* Flexible Cell */
+    #presetTable td:nth-child(2) {
+        width: auto; /* Allow this column to grow */
+        white-space: nowrap; /* Prevent wrapping inside the cell */
+    }
+
+    /* Image Styling */
+    #presetTable img {
+        display: block; /* Remove inline spacing */
+        max-width: none; /* Prevent image from shrinking */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image in the cell */
+    }
+
+</style>
+
+<!--Learning how to use Boostrap Grid and Utilities classes 
+https://getbootstrap.com/docs/5.3/layout/grid/,  
+https://getbootstrap.com/docs/5.3/utilities/api/
+-->
+<div class="container">         
+    <div class="row">
+        <div class="col-12">        <!-- Content within this div will be full-width and have vertical margins -->
+            <!--Daily request below 10,000 API calls from openmeteo-->
+            <header>
+                <h1>Fit-O-Matic</h1>
+            </header>
+        </div>
+    </div>
+   @*  <div class="row">
+        <div class="col">
+            <button id="getInfo" class="btn btn-primary">Refresh data</button>
+            <div id="currentInfo"></div>
+        </div>    
+    </div> *@
+
+    <div class="row">
+        <div class="col">
+            <div id="hourlyLane" class="my-3 table-responsive"></div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center g-0" id="presets">
+        <div class="col-3 col-sm col-md-4 col-xl-2 offset-xl-1 d-flex justify-content-end">
+            <button id="prevPresetBtn" class="btn btn-secondary me-2">Previous</button>
+        </div>
+        <div style="align-content:center" class="col-5 col-sm col-md-4 col-xl-5 d-flex justify-content-center">
+            <div id="presetTableContainer"></div>
+        </div>
+        <div class="col-4 col-sm col-md-4 col-xl-2 d-flex justify-content-start nextContainer">
+            <button id="nextPresetBtn" class="btn btn-secondary">Next</button>
+        </div>
+        <input type="hidden" id="presetStatus" value="null" />
+        <div class="col-xl-1">
+            <button id="restartPollingBtn" class="btn btn-outline-info">Restart Polling</button>
+        </div>
+    </div>
+    
+</div>
+
+

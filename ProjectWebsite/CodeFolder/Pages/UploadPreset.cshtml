@@ -1,0 +1,77 @@
+﻿@page
+@model UploadPresetModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!--Use Custom styling classes to override some Boostrap styles
+    May use !important and/or "class/id > *" selector
+-->
+<style>
+    /* make the no padding class take precedence over .row > * class*/
+    .nopadding > * {
+        padding: 0;
+    }
+    
+    #drop-area {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 2px dashed #ccc;
+        border-radius: 10px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    #categories{
+        display: flex;
+        justify-content:left;
+    }
+</style>
+
+<div class="container">
+        <!-- Content within this div will be full-width and have vertical margins -->
+    <div class="row nopadding">
+        <div id="drop-area" class="my-3 p-3 border rounded" >@*  class="col-md-4 my-3 p-3 border rounded"> *@
+            <!--bootstrap/dist/css my-3 == margin: 1rem-->
+            <p>Drag and Drop a image file here</p>
+        </div>
+    </div>
+    
+    <div class="row nopadding">
+        <div class="col-2">
+            <select id="categories" name="categories">
+                <option value=1>Casual</option>
+                <option value=2>Formal</option>
+                <option value=3>Snow</option>
+                <option value=4>Rain</option>
+                <option value=5>Sunny</option>
+            </select>
+        </div>
+        <div class="col-2 mx-3">
+            <input id="preset-name" type="text" name="name" value="" placeholder="Your preset name" />
+        </div>
+    </div>
+    <br />
+    
+    <div class="row nopadding">
+        <div class="col-2">
+            <input id="selectFileBtn" type="file" name="name" accept=".png, .gif, .jpg" class="form-control-file" />
+        </div>
+
+        <div id="preview-area" class="my-3" style="display: none">
+            <img id="clothing-preview" src="" alt="Clothing Preview" class="img-fluid rounded" />
+        </div>
+    </div>
+    <div class="row nopadding">
+        <div class="col-12" style="padding-top:5px">
+            <button id="uploadBtn" class="btn btn-success">Upload Clothing</button>
+            <button id="cancelBtn" class="btn btn-danger">Cancel</button>
+            <input type="hidden" id="fileBase64String"/>
+        </div>
+        <div id="messageStatus"></div>
+        @* <p id="hiddenPreview"></p> *@
+    </div>
+</div>

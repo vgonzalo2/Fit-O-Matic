@@ -1,0 +1,113 @@
+/*Start mobile first design*/
+
+
+/* Base styles (generated from Copilot)*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+header, footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: blue;
+}
+
+#preview-area {
+    text-align: center;
+}
+
+#preset-preview {
+    width: 15%;         /* adjust the width value to make the image smaller or larger (keeping the aspect ratio the same)*/
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px;
+}
+
+#image-info {
+    text-align: center;
+}
+
+
+/* Small tablet styles*/
+@media screen and (min-width: 270px) and (max-width: 390px) {
+    .nextContainer > * {
+        margin-left: 70%;
+    }
+}
+
+/* large screens for phones */
+@media screen and (min-width: 400px) and (max-width: 767px) {
+   .nextContainer > *{
+       margin-left: 50%;
+   }
+
+    #presetTableContainer {
+        width: 100%; /* Full width for small screens */
+        padding: 0 15px; /* Add some padding for better visibility */
+    }
+}
+
+/* tablets in portrait mode*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #presetTableContainer {
+        width: 80%; /* Slightly smaller width for tablets */
+        padding: 0 15px; /* Add some padding for better visibility */
+    }
+}
+
+/* tablets Landscape mode and small Laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #presetTableContainer {
+        width: 500px; /* Default size for desktop */
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    #nextPresetBtn > * {
+        margin-left: 150px;
+    }
+        
+    #prevPresetBtn > * {
+        margin-left: 400px;
+    }
+}
+
+
+/* RazorPages default css */
+/* Desktop Screen css*/
+@media (min-width: 768px) {
+    #getInfo {
+        grid-column: 2; /*Testing button placement*/
+    }
+
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    font-size: 14px;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
