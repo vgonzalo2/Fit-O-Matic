@@ -16,18 +16,18 @@ The repository has been recreated for *portfolio purposes*.
 ## Tech Stack
 <p>
   <img width="50" src=https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c%23.png alt="C#" title= "C#"/>
-  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mssql.png" alt="MSSQL" title="MSSQL">
+  <img width="50" src="images/Azure SQL Database.png" alt="Azure SQL Database" title="MSSQL">
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/>
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/>
   <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/>
 </p>
 
 ## Architecture & Integrations
-- ASP.NET Core (Razor Pages)
-- ADO.NET with parameterized queries
-- REST API Integration (Open-Meteo Weather API)
-- Azure SQL Database (Microsoft SQL Server)
-- JSON data handling
+- ASP.NET Core (Razor Pages) - Web application framework for structuring pages and handling server-side rendering
+- ADO.NET with parameterized queries - Secure database access and execution of SQL queries against Azure SQL Database
+- REST API Integration - Retrieval of real-time weather data from Open-Meteo and communication with the hardware system
+- Azure SQL Database - Cloud-hosted relational database for application data
+- JSON data handling - Parsing and processing API responses
 
 ## Key Features
 - Displays hourly weather conditions through a web interface
@@ -37,10 +37,9 @@ The repository has been recreated for *portfolio purposes*.
 
 ## My Contributions
 - Developed application logic using C# and Javascript for both frontend and backend functionality
-- Used ASP.NET Core (Razor Pages) as a UI templating structure for the web interface
-- Implemented data access using ADO.NET with parameterized queries for SQL Server Integration
-- Retrieved real-time weather data from a external API for application functionality
-- Developed integration between the web application and the closet system
+- Implemented data access layer using ADO.NET with parameterized queries for secure database operations
+- Built interactive web features for viewing weather data, browsing outfits, and inventory management
+- Developed communication flow between the web application and the hardware controller system
 
 ## Hardware Components
 
