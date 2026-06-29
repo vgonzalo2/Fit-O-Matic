@@ -78,7 +78,7 @@ The repository has been recreated for *portfolio purposes*.
   }
   ```
   ServerAJAX Helper Function
-  ```
+  ```js
   /*******************************************************************************************************
    Description: Server call to send data converted to JSON to the project webservice. 
    Params: projectURL - Project URL
@@ -108,7 +108,7 @@ The repository has been recreated for *portfolio purposes*.
    ```
   
   - External API AJAX (weather data)
-    ```
+    ```js
     /******************************************************************************************************
     Description: Get Edmonton's weather and to make sense of the OpenMeteo's documentation.             
     Params: None
@@ -133,6 +133,51 @@ The repository has been recreated for *portfolio purposes*.
     ```
   
 - Implemented a data access layer using ADO.NET with parameterized queries for secure database operations
+  
+    ADO.NET database update logic (Snippet)
+    ```csharp
+    public static class UserControls
+      // connection string to the database
+      static string connection = "PUT_YOUR_CONNECTION_STRING_HERE";
+
+      public static int UpdatePreset(string PresetID, string PresetName)
+      {
+          using (SqlConnection conn = new SqlConnection(connection))
+        {
+            try
+            {
+            conn.Open();
+            Trace.WriteLine("Connection is open");
+
+            string updatePresetQuery = "Update Presets set PresetName = @presetName " +
+                                        "where PresetID = @presetID";
+
+            int rowsAffected = 0;
+
+            using (SqlCommand command = new SqlCommand(updatePresetQuery, conn))
+            {
+                command.CommandType = CommandType.Text;
+
+                command.Parameters.AddWithValue("@presetName", PresetName);
+                command.Parameters.AddWithValue("@presetID", PresetID); 
+
+                rowsAffected = command.ExecuteNonQuery();
+            }
+
+            conn.Close();
+
+            return rowsAffected;
+          }
+          catch (Exception ex)
+          {
+            Trace.WriteLine(ex);
+            Trace.WriteLine(ex.Message);
+            return 0;
+          }
+      }
+    }
+    ```
+    
 - Developed communication flow between the web application, database, and the hardware controller system
 
 
