@@ -5,10 +5,29 @@ The Fit-O-Matic is a **smart closet system** developed as a *collaborative capst
 
 The repository has been recreated for *portfolio purposes*.
 
-<figure>
-  <img src="" title="Fit-O-Matic_Assembled">
-  <figcaption>Final assembled Fit-O-Matic system (hardware subsystem developed by teammate).</figcaption>
-</figure>
+<p align="center">
+  <img width="200" src="ProjectImages/Fit-O-MaticAssembledP1.jpg" title="Fit-O-Matic_Assembled">
+</p>
+
+<p align="center">
+  <em>Final assembled Fit-O-Matic prototype (hardware subsystem developed by a team member).</em>
+</p>
+
+## Tech Stack
+<p>
+  <img width="50" src=https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c%23.png alt="C#" title= "C#"/>
+  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mssql.png" alt="MSSQL" title="MSSQL">
+  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/>
+  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/>
+  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/>
+</p>
+
+## Architecture & Integrations
+- ASP.NET Core (Razor Pages)
+- ADO.NET with parameterized queries
+- REST API Integration (Open-Meteo Weather API)
+- Azure SQL Database (Microsoft SQL Server)
+- JSON data handling
 
 ## Key Features
 - Displays hourly weather conditions through a web interface
@@ -31,23 +50,7 @@ The hardware subsystem was developed by a separate team member and is included f
 - Motorized rotating closet rack system
 - NFC-based clothing identification system using tagged clothing rungs
 
-## Tech Stack
-<div>
-  <img width="50" src=https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c%23.png alt="C#" title= "C#"/>
-  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mssql.png" alt="MSSQL" title="MSSQL">
-  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/>
-  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML"/>
-  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/>
-</div>
-
-## Architecture & Integrations
-- ASP.NET Core (Razor Pages)
-- ADO.NET with parameterized queries
-- REST API Integration (Open-Meteo Weather API)
-- Azure SQL Database (Microsoft SQL Server)
-- JSON data handling
-
 ## Project Images
 
 ## Acknowledgements
-Hardware design and implementation were primarily completed by Andreas Delfin as part of the CMPE2965 Capstone project team.
+Hardware design and implementation were primarily completed by Andreas Delfin (https://www.linkedin.com/in/andreas-kizzer-delfin/) as part of the Fit-O-Matic capstone project team.
