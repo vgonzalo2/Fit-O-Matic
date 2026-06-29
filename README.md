@@ -38,7 +38,7 @@ The repository has been recreated for *portfolio purposes*.
 ## My Contributions
 - Built and styled web interface features for weather data display, outfit catalog browsing, and inventory management
 
-  *Web interface showing state changes during outfit catalog interaction and inventory updates.* <br>
+  - *Web interface showing state changes during outfit catalog interaction and inventory updates.* <br>
 <p align="center">
   <img width="240" src="ProjectImages/UI_websiteui.jpg" title="UI HomePage">
   <img width="240" src="ProjectImages/UI_editUpdate.png" title="UI EditUpdate">
@@ -47,6 +47,91 @@ The repository has been recreated for *portfolio purposes*.
 </p>
 
 - Developed application logic using C# and JavaScript for both frontend and backend functionality
+  - Internal System AJAX (frontend -> backend) - After Update Btn is pressed on UploadPreset Page
+
+  ```js
+   function UpdatePreset()
+  {
+    let presetName = $("#presetTBX").val();
+    console.log("Updated preset name saved " + presetName);
+    console.log($("#presetStatus").val());
+
+    let updateData = {};
+    updateData["presetID"] = $("#presetStatus").val();
+    updateData["presetName"] = presetName;
+  
+    // ServerAJAX  
+    ServerAJAX(projectURL + "UpdatePreset", "post", updateData, "json", ServerSuccess, Error);
+
+    // after call reset back to editBtn functionality
+    $(this).off();
+
+    $(this).prop("id", "editBtn");
+
+    $(this).text("Edit");
+
+    $(this).on("click", EditPreset);
+
+    $("#cancelBtn").remove();
+
+    $("#presetTBX").remove();   // remove the textbox
+  }
+  ```
+  ServerAJAX Helper Function
+  ```
+  /*******************************************************************************************************
+   Description: Server call to send data converted to JSON to the project webservice. 
+   Params: projectURL - Project URL
+          method - GET or POST data
+          reqData - weather info is stored in this data object's properties
+          dataType - retrieve information in JSON or HTML format
+          successMethod - success function to be executed
+          errorMethod - error function on error
+   ********************************************************************************************************/
+   function ServerAJAX(url, method, reqData, dataType, successMethod, errorMethod) {
+     let ajaxOptions = {};
+
+     ajaxOptions['url'] = url;                                           // the target website to send the call
+     ajaxOptions['method'] = method;                                     // GET OR POST
+     ajaxOptions['data'] = reqData ? JSON.stringify(reqData) : null;     // data object to obtain
+     ajaxOptions['dataType'] = dataType;                                 // JSON or HTML format
+     ajaxOptions['contentType'] = "application/json";                    // NEW for C#
+
+     let con = $.ajax(ajaxOptions);
+
+     // on Successful call of successMethod
+     con.done(successMethod);
+
+     // on Failure call errorMethod
+     con.fail(errorMethod);
+     }
+   ```
+  
+  - External API AJAX (weather data)
+    ```
+    /******************************************************************************************************
+    Description: Get Edmonton's weather and to make sense of the OpenMeteo's documentation.             
+    Params: None
+    Returns: N/A
+    *******************************************************************************************************/
+    function GetEDMWeather() {
+      console.log("Inside GetWeather: ");
+
+      let url = "https://api.open-meteo.com/v1/forecast";
+
+      // create the data object to retrieve weather information
+      let data = {};
+      data['latitude'] = 53.5461;
+      data['longitude'] = -113.4937;
+      data['elevation'] = '645';
+      data['hourly'] = "temperature_2m,weather_code,precipitation_probability,is_day";
+      data['timezone'] = "America/Edmonton";
+      data['current'] = "temperature_2m,is_day,weather_code,precipitation_probability";
+
+      AJAX(url, "get", data, "JSON", WeatherSuccess, Error);     // make AJAX call to openmeteo weather api
+    }
+    ```
+  
 - Implemented a data access layer using ADO.NET with parameterized queries for secure database operations
 - Developed communication flow between the web application, database, and the hardware controller system
 
