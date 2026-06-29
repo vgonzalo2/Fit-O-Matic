@@ -36,10 +36,20 @@ The repository has been recreated for *portfolio purposes*.
 - Allow users to update and manage the clothing inventory in the closet system
 
 ## My Contributions
-- Developed application logic using C# and Javascript for both frontend and backend functionality
-- Implemented data access layer using ADO.NET with parameterized queries for secure database operations
-- Built interactive web features for viewing weather data, browsing outfits, and inventory management
-- Developed communication flow between the web application and the hardware controller system
+- Built and styled web interface features for weather data display, outfit catalog browsing, and inventory management
+
+  *Web interface showing state changes during outfit catalog interaction and inventory updates.* <br>
+<p align="center">
+  <img width="240" src="ProjectImages/UI_websiteui.jpg" title="UI HomePage">
+  <img width="240" src="ProjectImages/UI_editUpdate.png" title="UI EditUpdate">
+  <img width="240" src="ProjectImages/UI_dropdownMenu.png" title="UI DropdownMenu">
+  <img width="240" src="ProjectImages/UI_requiredFieldsSupplied.png" title="UI FieldsFilled">  
+</p>
+
+- Developed application logic using C# and JavaScript for both frontend and backend functionality
+- Implemented a data access layer using ADO.NET with parameterized queries for secure database operations
+- Developed communication flow between the web application, database, and the hardware controller system
+
 
 ## Hardware Components
 
@@ -53,15 +63,15 @@ The repository has been recreated for *portfolio purposes*.
        Raspberry Pi Pico W
     </td>
     <td align="center">
-      <img width="200" src="ProjectImages/rotatableRackAmazon.jpg" title=""><br>
+      <img width="200" src="ProjectImages/rotatableRackAmazon.jpg" title="Closet Rack"><br>
       Closet rack structure
     </td>
     <td align="center">
-      <img width="200" src="ProjectImages/nema17.jpg"><br>
+      <img width="200" src="ProjectImages/nema17.jpg" title="Nema17 Motor"><br>
       Nema17 motor
     </td>
     <td align="center">
-      <img width="200" src="ProjectImages/rfid.png"><br>
+      <img width="200" src="ProjectImages/rfid.png" title="NFC reader + Tags"><br>
       NFC RFID Reader + NFC Tags
     </td>
   </tr>
