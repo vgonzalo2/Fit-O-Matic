@@ -6,9 +6,9 @@ The Fit-O-Matic is a **smart closet system** developed as a *collaborative capst
 The repository has been recreated for *portfolio purposes*.
 
 <p align="center">
-  <img width="200" src="ProjectImages/Fit-O-MaticAssembledP1.jpg" title="Fit-O-Matic_Assembled">
+  <img width="200" src="ProjectImages/Fit-O-MaticAssembledP1.jpg" title="Fit-O-Matic_Assembled Part1">
+  <img width="200" src="ProjectImages/Fit-O-MaticAssembledP2.jpg" title="Fit-O-Matic_Assembled Part2">
 </p>
-
 <p align="center">
   <em>Final assembled Fit-O-Matic prototype (hardware subsystem developed by a team member).</em>
 </p>
@@ -43,13 +43,35 @@ The repository has been recreated for *portfolio purposes*.
 
 ## Hardware Components
 
-The hardware subsystem was developed by a separate team member and is included for *system context only*.
+*This section highlights the primary hardware components used in the system.*
 
-- Raspberry Pi Pico W
-- Motorized rotating closet rack system
-- NFC-based clothing identification system using tagged clothing rungs
+<table>
+  <table border="">
+  <tr>
+    <td align="center">
+      <img width="200" src="ProjectImages/PICO_W_HERO_TRANSPARENT__41312.png" title="Raspberry Pi Pico W" ><br>
+       Raspberry Pi Pico W
+    </td>
+    <td align="center">
+      <img width="200" src="ProjectImages/rotatableRackAmazon.jpg" title=""><br>
+      Closet rack structure
+    </td>
+    <td align="center">
+      <img width="200" src="ProjectImages/nema17.jpg"><br>
+      Nema17 motor
+    </td>
+    <td align="center">
+      <img width="200" src="ProjectImages/rfid.png"><br>
+      NFC RFID Reader + NFC Tags
+    </td>
+  </tr>
+</table>
+
+</table>
 
 ## Project Images
+Note: The hardware subsystem was developed by a separate team member and is included for *system context only*.
+
 
 ## Acknowledgements
 Hardware design and implementation were primarily completed by Andreas Delfin (https://www.linkedin.com/in/andreas-kizzer-delfin/) as part of the Fit-O-Matic capstone project team.
