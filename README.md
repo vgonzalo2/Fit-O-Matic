@@ -179,7 +179,12 @@ The repository has been recreated for *portfolio purposes*.
     ```
     
 - Developed communication flow between the web application, database, and the hardware controller system
-
+  <p align="center">
+  <img width="500" src="ProjectImages/SystemFlowChart.png" title="System FlowChart">
+  </p>
+  <p align="center">
+    <em>System FlowChart</em>
+  </p>
 
 ## Hardware Components
 
