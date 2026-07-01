@@ -3,7 +3,7 @@
 ## Project Overview
 The Fit-O-Matic is a **smart closet system** developed as a *collaborative capstone project* (CMPE2965 - Technical Project) in the NAIT Computer Engineering Technology program. It combines a web application and hardware components to help users make outfit decisions using real-time data from an external API.
 
-The repository has been recreated for *portfolio purposes*.
+This repository has been recreated and structured for *portfolio demonstration purposes*.
 
 <p align="center">
   <img width="200" src="ProjectImages/Fit-O-MaticAssembledP1.jpg" title="Fit-O-Matic_Assembled Part1">
@@ -188,10 +188,9 @@ The repository has been recreated for *portfolio purposes*.
 
 ## Hardware Components
 
-*This section highlights the primary hardware components used in the system.*
+This section highlights the primary hardware components used in the Fit-O-Matic system to support embedded input/output and system integration.
 
 <table>
-  <table border="">
   <tr>
     <td align="center">
       <img width="200" src="ProjectImages/PICO_W_HERO_TRANSPARENT__41312.png" title="Raspberry Pi Pico W" ><br>
@@ -212,11 +211,18 @@ The repository has been recreated for *portfolio purposes*.
   </tr>
 </table>
 
-</table>
-
-## Project Images
-Note: The hardware subsystem was developed by a separate team member and is included for *system context only*.
-
+<p>
+  <img width="240" src="ProjectImages/motorHousingRev01.png" title="MotorHousingTop">
+  <img width="240" src="ProjectImages/motorHousingRev03.png" title="MotorHousingBottom">
+  <img width="240" src="ProjectImages/IMG_8944.jpg" title="Motor Housing Revisions">
+</p>
 
 ## Acknowledgements
-Hardware design and implementation were primarily completed by Andreas Delfin (https://www.linkedin.com/in/andreas-kizzer-delfin/) as part of the Fit-O-Matic capstone project team.
+Hardware design and implementation were completed by Andreas Delfin as part of the Fit-O-Matic capstone project.
+
+LinkedIn: https://www.linkedin.com/in/andreas-kizzer-delfin/
+
+## Contact
+Author: Vidal II Gonzalo
+
+LinkedIn: https://www.linkedin.com/in/vidal-gonzalo-2nd/
