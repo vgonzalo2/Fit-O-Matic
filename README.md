@@ -222,7 +222,6 @@ This section highlights the primary hardware components used in the Fit-O-Matic 
       <img width="240" src="ProjectImages/IMG_8944.jpg" title="Motor Housing Revisions">
       Motor Housing Revisions
     </td>
-    
     <td align="center">
       <img width="240" src="ProjectImages/a4988.jpg" title="A4988 Stepper Motor Driver">
       A4988 Stepper Motor Driver
