@@ -178,7 +178,7 @@ This repository has been recreated and structured for *portfolio demonstration p
     }
     ```
     
-- Developed communication flow between the web application, database, and the hardware controller system
+- Designed and implemented the API endpoint routing enabling communication between the web application, database, and hardware controller system
   <p align="center">
   <img width="500" src="ProjectImages/SystemFlowChart.png" title="System FlowChart">
   </p>
@@ -212,11 +212,11 @@ This section highlights the primary hardware components used in the Fit-O-Matic 
   <tr>
     <td align="center">
       <img width="240" src="ProjectImages/motorHousingRev01.png" title="MotorHousingTop">
-      Motor Housing Top
+      Motor Housing TopView
     </td>
     <td align="center">
       <img width="240" src="ProjectImages/motorHousingRev03.png" title="MotorHousingBottom">
-      Motor Housing Bottom
+      Motor Housing BottomView
     </td>
     <td align="center">
       <img width="240" src="ProjectImages/IMG_8944.jpg" title="Motor Housing Revisions">
@@ -229,8 +229,11 @@ This section highlights the primary hardware components used in the Fit-O-Matic 
   </tr>
 </table>
 
-<p>
-  
+<h3 align="center">BreadBoard Controller</h3>
+<p align="center">
+  <img width="240" src="ProjectImages/firstPageScreen.jpg" title="first page screen">
+  <img width="240" src="ProjectImages/secondPageScreen.jpg" title="second page screen">
+  <img width="240" src="ProjectImages/thirdPageScreen.jpg" title="third page screen">
 </p>
 
 ## Acknowledgements
