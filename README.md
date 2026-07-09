@@ -207,14 +207,31 @@ This section highlights the primary hardware components used in the Fit-O-Matic 
     <td align="center">
       <img width="200" src="ProjectImages/rfid.png" title="NFC reader + Tags"><br>
       NFC RFID Reader + NFC Tags
+    </td>    
+  </tr>
+  <tr>
+    <td align="center">
+      <img width="240" src="ProjectImages/motorHousingRev01.png" title="MotorHousingTop">
+      Motor Housing Top
+    </td>
+    <td align="center">
+      <img width="240" src="ProjectImages/motorHousingRev03.png" title="MotorHousingBottom">
+      Motor Housing Bottom
+    </td>
+    <td align="center">
+      <img width="240" src="ProjectImages/IMG_8944.jpg" title="Motor Housing Revisions">
+      Motor Housing Revisions
+    </td>
+    
+    <td align="center">
+      <img width="240" src="ProjectImages/a4988.jpg" title="A4988 Stepper Motor Driver">
+      A4988 Stepper Motor Driver
     </td>
   </tr>
 </table>
 
 <p>
-  <img width="240" src="ProjectImages/motorHousingRev01.png" title="MotorHousingTop">
-  <img width="240" src="ProjectImages/motorHousingRev03.png" title="MotorHousingBottom">
-  <img width="240" src="ProjectImages/IMG_8944.jpg" title="Motor Housing Revisions">
+  
 </p>
 
 ## Acknowledgements
