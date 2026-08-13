@@ -10,7 +10,7 @@ This repository has been recreated and structured for *portfolio demonstration p
   <img width="200" src="ProjectImages/Fit-O-MaticAssembledP2.jpg" title="Fit-O-Matic_Assembled Part2">
 </p>
 <p align="center">
-  <em>Final assembled Fit-O-Matic prototype (hardware subsystem developed by teammate Andreas Delfin ).</em>
+  <em>Final assembled Fit-O-Matic prototype (hardware subsystem developed by teammate Andreas Delfin).</em>
 </p>
 
 ## Presentation
